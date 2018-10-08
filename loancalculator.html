@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Interest Calculator</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <script src="loancalculator.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+</head>
+
+<body>
+    <nav>
+       <ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a class="navbar-brand Navbar active" href="index.html">Satyavrath.com</a>
+        </nav>
+ <div class="container-fluid">
+    <div class="row" >
+    <div class="col-xs-12">
+    <div class="new_L"> 
+                    
+    <div class="Calci">LOAN CALCULATOR</div>
+  </div>
+</div>
+</div>
+<form>
+<p><h2>Loan Amount: $<input id = "amount" type="number"  onchange="computeLoan()"></p></h2><br>
+<p><h2>Interest Rate: <input id = "interest_rate" type="number" onchange="computeLoan()"></p></h2><br>
+<p><h2>Months: <input id = "months" type="number" min = "1" max = "72" onchange="computeLoan()"></p></h2>
+<div class="position">
+<button type="button" name="Submit" onclick="computeLoan2()">Submit</button>
+<input type = "reset" value="Reset" onclick="computeLoan3()"/>
+</div>
+<h2 id ="Interest"></h2>
+<h2 id ="Interest_total"></h2>
+<h2 id="payment"></h2>
+<canvas id ="pie" width="500px" height="300px"onclick="computeLoan2()"></canvas>
+
+</form>
+</body> 
+</html>

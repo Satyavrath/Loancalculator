@@ -1,0 +1,137 @@
+		
+Header{
+	
+	color: black;
+	text-align: center;
+	font-family: Lucida Calligraphy;
+	font-size: 10px;
+	border-radius: 50px;
+	border-width: 5px;
+ 	margin-top: 5px;
+	margin-right: 980px;
+	margin-bottom: 5px;
+	
+		}	
+
+body{
+	
+	background-image:url(images.jpg);
+	background-size: cover;
+	
+	height:fit-content;
+	}
+
+.new
+{
+	text-align: center;
+	font-size:250%;
+	width: 47%;
+	margin: auto;
+}	
+.Contact
+{
+	display: block;
+	color: white;
+	background-color: seagreen;
+	border-radius: 41px;
+}	
+.center
+{
+	text-align:center;
+	background-size: cover;
+}
+.bottom
+{
+	text-align:left;
+	background-size: cover;
+}
+article{
+	color: black;
+	background-color:transparent;
+	font-family: TimesNewRoman;
+	
+}
+h3{
+	font-size:16px;
+}
+p{
+	font-size:14px;
+}
+	#past-section{
+	background-color:transparent;
+	}
+	#future-section{
+	background-color: transparent;
+	}
+	.section-header{
+	background-color:transparent;
+	}
+	.aside-header{
+	background-color:transparent;
+	color: red;
+	}
+aside{
+	background-color:transparent;
+	color: black;
+	font-family: TimesNewRoman;
+	font-size: 14px;
+}
+footer{
+	background-color:transparent;
+	font-family: Arial;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+.img-circle{
+	border-radius: 50%
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:dodgerblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: green;
+}
+h2{
+	text-align: center;
+	
+}
+.new_L
+{
+	text-align: center;
+	font-size:150%;
+	width: 61%;
+	margin: auto;
+}	
+.Calci
+{
+	display: block;
+	color: white;
+	background-color: seagreen;
+	border-radius: 41px;
+}	
+.position
+{
+	text-align: center;
+}
+	
